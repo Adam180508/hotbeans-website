@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Beans | Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <div class="logo">
+        <div class="logo-icon">☕</div>
+        <h1>Hot Beans</h1>
+      </div>
+
+      <div class="nav-row">
+        <nav>
+          <a href="index.html">Profile of company</a>
+          <a href="staff.html">Staff Page</a>
+          <a href="application.html" class="active">Application</a>
+          <a href="courses.html">Courses</a>
+          <a href="jobs.html">Jobs</a>
+        </nav>
+
+        <div class="search-box">
+          <span>🔍</span>
+          <input type="text" placeholder="Search">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="card">
+      <div class="two-column">
+        <div>
+          <h3 class="subheading">Job Specification</h3>
+          <ul class="info-list">
+            <li>Knowledge of HTML, CSS, and basic JavaScript</li>
+            <li>Understanding of responsive web design</li>
+            <li>Ability to work in a team and solve problems</li>
+          </ul>
+
+          <textarea placeholder="Enter your details here"></textarea>
+        </div>
+
+        <div>
+          <h3 class="subheading">External Courses</h3>
+          <div class="course-grid">
+            <div class="course-card">
+              <h4>HTML & CSS Basics</h4>
+              <p>Learn page structure, styling, and layouts.</p>
+            </div>
+
+            <div class="course-card">
+              <h4>JavaScript Essentials</h4>
+              <p>Understand variables, functions, and DOM basics.</p>
+            </div>
+
+            <div class="course-card">
+              <h4>Responsive Design</h4>
+              <p>Create websites that work on all screen sizes.</p>
+            </div>
+
+            <div class="course-card">
+              <h4>UX Design Fundamentals</h4>
+              <p>Improve usability, accessibility, and interfaces.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br>
+
+    <section class="card">
+      <h2 class="section-title">Apply for a Position</h2>
+
+      <form class="form-grid">
+        <div class="form-group">
+          <label for="firstname">First Name</label>
+          <input type="text" id="firstname" name="firstname" placeholder="Enter first name">
+        </div>
+
+        <div class="form-group">
+          <label for="lastname">Last Name</label>
+          <input type="text" id="lastname" name="lastname" placeholder="Enter last name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter email">
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter phone number">
+        </div>
+
+        <div class="form-group full">
+          <label for="role">Role Applied For</label>
+          <select id="role" name="role">
+            <option>Junior Web Developer</option>
+            <option>Front-End Developer</option>
+            <option>Back-End Developer</option>
+            <option>UI/UX Designer</option>
+          </select>
+        </div>
+
+        <div class="form-group full">
+          <label for="message">Personal Statement</label>
+          <textarea id="message" name="message" placeholder="Tell us why you are a good fit"></textarea>
+        </div>
+
+        <div class="form-group full">
+          <button type="submit" class="btn">Submit Application</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Hot Beans. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
